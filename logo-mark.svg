@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">Passaparola Pizza &amp; Mare</title>
+  <desc id="description">Simbolo semplice con una fetta di pizza e un pesce.</desc>
+  <path d="m91 66 220 278q-118-48-250-8z" fill="#a84332"/>
+  <path d="M61 336q132-40 250 8" fill="none" stroke="#e4b85e" stroke-linecap="round" stroke-width="20"/>
+  <circle cx="191" cy="199" r="18" fill="#f6f5f0"/>
+  <circle cx="239" cy="269" r="18" fill="#f6f5f0"/>
+  <path d="M253 391q54-69 142-30l47-38v114l-47-38q-88 39-142-30Z" fill="#536b55"/>
+  <circle cx="282" cy="384" r="6" fill="#f6f5f0"/>
+  <path d="M143 455q52-29 104 0t104 0" fill="none" stroke="#536b55" stroke-linecap="round" stroke-width="14"/>
+</svg>

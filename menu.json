@@ -1,0 +1,570 @@
+[
+  {
+    "id": 49,
+    "nome": "4 Formaggi",
+    "ingredienti": "pomodoro, mozzarella, gorgonzola, emmental, grana e scamorza",
+    "prezzo": 8.00,
+    "immagine": "foto/quattroformaggi.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 48,
+    "nome": "4 Stagioni",
+    "ingredienti": "pomodoro, mozzarella, funghi, prosciutto cotto, carciofi e olive nere",
+    "prezzo": 7.50,
+    "immagine": "foto/quattrostagioni.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 30,
+    "nome": "Adam",
+    "ingredienti": "pomodoro, mozzarella, pomodorini, rucola e scaglie di grana",
+    "prezzo": 8.00,
+    "immagine": "foto/adam.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 15,
+    "nome": "Americana",
+    "ingredienti": "pomodoro, mozzarella, wurstel e patatine fritte",
+    "prezzo": 7.00,
+    "immagine": "foto/americana.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 62,
+    "nome": "Antipasto di Mare",
+    "ingredienti": "Assortimento fresco di specialità marine",
+    "prezzo": 15.00,
+    "immagine": "foto/antipastodimare.jpg",
+    "categoria": "antipasti_mare"
+  },
+  {
+    "id": 58,
+    "nome": "Asparagi",
+    "ingredienti": "pomodoro, mozzarella, asparagi e grana",
+    "prezzo": 6.50,
+    "immagine": "foto/asparagi.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 29,
+    "nome": "Bomba",
+    "ingredienti": "pomodoro, mozzarella, salame piccante, gorgonzola, peperoni e acciughe",
+    "prezzo": 8.50,
+    "immagine": "foto/bomba.jpg",
+    "categoria": "piccolicanti"
+  },
+  {
+    "id": 16,
+    "nome": "Bonny",
+    "ingredienti": "mozzarella, tonno, speck, carciofi e olive nere",
+    "prezzo": 8.50,
+    "immagine": "foto/bonny.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 21,
+    "nome": "Bosco",
+    "ingredienti": "pomodoro, mozzarella, funghi porcini, gorgonzola e prosciutto crudo",
+    "prezzo": 8.00,
+    "immagine": "foto/bosco.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 27,
+    "nome": "Boscaiola",
+    "ingredienti": "pomodoro, mozzarella, rucola, funghi porcini e scaglie di grana",
+    "prezzo": 7.50,
+    "immagine": "foto/boscaiola.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 57,
+    "nome": "Bufalina",
+    "ingredienti": "pomodoro, mozzarella, mozzarella di bufala e basilico",
+    "prezzo": 7.00,
+    "immagine": "foto/bufalina.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 14,
+    "nome": "Calabrese",
+    "ingredienti": "pomodoro, mozzarella, tonno e olive nere",
+    "prezzo": 7.00,
+    "immagine": "foto/calabrese.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 32,
+    "nome": "Calamari",
+    "ingredienti": "pomodoro, mozzarella e calamari",
+    "prezzo": 10.00,
+    "immagine": "foto/calamari.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 47,
+    "nome": "Capricciosa",
+    "ingredienti": "pomodoro, mozzarella, funghi, carciofi e prosciutto cotto",
+    "prezzo": 7.50,
+    "immagine": "foto/capricciosa.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 59,
+    "nome": "Caprese",
+    "ingredienti": "mozzarella, mozzarella di bufala e pomodori freschi",
+    "prezzo": 7.00,
+    "immagine": "foto/caprese.jpg",
+    "categoria": "bianche"
+  },
+  {
+    "id": 23,
+    "nome": "Carciofi",
+    "ingredienti": "pomodoro, mozzarella e carciofi",
+    "prezzo": 6.00,
+    "immagine": "foto/carciofi.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 35,
+    "nome": "Carbonara",
+    "ingredienti": "pomodoro, mozzarella, pancetta, uovo e grana",
+    "prezzo": 7.50,
+    "immagine": "foto/carbonara.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 52,
+    "nome": "Contadina",
+    "ingredienti": "pomodoro, mozzarella, funghi, grana, pancetta e asparagi",
+    "prezzo": 9.00,
+    "immagine": "foto/contadina.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 65,
+    "nome": "Cozze alla Marinara",
+    "ingredienti": "Con bruschetta croccante",
+    "prezzo": 12.00,
+    "immagine": "foto/cozzemarinara.jpg",
+    "categoria": "antipasti_mare"
+  },
+  {
+    "id": 24,
+    "nome": "Crudo",
+    "ingredienti": "pomodoro, mozzarella e prosciutto crudo",
+    "prezzo": 7.00,
+    "immagine": "foto/crudo.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 39,
+    "nome": "Crudo e Bufala",
+    "ingredienti": "mozzarella, prosciutto crudo e mozzarella di bufala",
+    "prezzo": 7.00,
+    "immagine": "foto/crudobufala.jpg",
+    "categoria": "bianche"
+  },
+  {
+    "id": 38,
+    "nome": "Crudo e Panna",
+    "ingredienti": "pomodoro, mozzarella, prosciutto crudo e panna",
+    "prezzo": 7.00,
+    "immagine": "foto/crudopanna.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 60,
+    "nome": "Diavola",
+    "ingredienti": "mozzarella, mozzarella e salame piccante",
+    "prezzo": 6.50,
+    "immagine": "foto/diavola.jpg",
+    "categoria": "piccolicanti"
+  },
+  {
+    "id": 3,
+    "nome": "Europea",
+    "ingredienti": "pomodoro, mozzarella, salame piccante, prosciutto cotto e olive nere",
+    "prezzo": 8.00,
+    "immagine": "foto/europea.jpg",
+    "categoria": "piccolicanti"
+  },
+  {
+    "id": 20,
+    "nome": "Fantasia",
+    "ingredienti": "pomodoro, mozzarella, gamberetti e basilico",
+    "prezzo": 8.00,
+    "immagine": "foto/fantasia.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 61,
+    "nome": "Fantasia del Pizzaiolo",
+    "ingredienti": "pomodoro, mozzarella, pancetta, gorgonzola e 'nduja",
+    "prezzo": 9.50,
+    "immagine": "foto/fantasiapizzaiolo.jpg",
+    "categoria": "piccolicanti"
+  },
+  {
+    "id": 28,
+    "nome": "Friarielli e Salsiccia",
+    "ingredienti": "mozzarella, friarielli, salsiccia e scaglie di grana",
+    "prezzo": 7.00,
+    "immagine": "foto/friarielli.jpg",
+    "categoria": "bianche"
+  },
+  {
+    "id": 71,
+    "nome": "Fritti di Calamari",
+    "ingredienti": "Solo anelli di calamari fritti",
+    "prezzo": 11.00,
+    "immagine": "foto/frittocalamari.jpg",
+    "categoria": "fritti_mare"
+  },
+  {
+    "id": 70,
+    "nome": "Fritto Misto",
+    "ingredienti": "Calamari, gamberi e paranza fritti croccanti",
+    "prezzo": 13.00,
+    "immagine": "foto/frittomisto.jpg",
+    "categoria": "fritti_mare"
+  },
+  {
+    "id": 33,
+    "nome": "Frutti di Mare",
+    "ingredienti": "pomodoro, mozzarella e frutti di mare",
+    "prezzo": 10.00,
+    "immagine": "foto/fruttidimare.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 22,
+    "nome": "Funghi",
+    "ingredienti": "pomodoro, mozzarella e funghi",
+    "prezzo": 6.00,
+    "immagine": "foto/funghi.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 1,
+    "nome": "Gardonese",
+    "ingredienti": "pomodoro, mozzarella, salame piccante e olive nere",
+    "prezzo": 7.50,
+    "immagine": "foto/gardonese.jpg",
+    "categoria": "piccolicanti"
+  },
+  {
+    "id": 41,
+    "nome": "Gorgo e Noci",
+    "ingredienti": "mozzarella, gorgonzola, noci e grana",
+    "prezzo": 7.50,
+    "immagine": "foto/gorgonoci.jpg",
+    "categoria": "bianche"
+  },
+  {
+    "id": 40,
+    "nome": "Gorgonzola",
+    "ingredienti": "pomodoro, mozzarella e gorgonzola",
+    "prezzo": 6.50,
+    "immagine": "foto/gorgonzola.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 68,
+    "nome": "Gratin di Pesce",
+    "ingredienti": "Pesce assortito gratinato al forno",
+    "prezzo": 18.00,
+    "immagine": "foto/gratinpesce.jpg",
+    "categoria": "secondi_mare"
+  },
+  {
+    "id": 69,
+    "nome": "Grigliata di Pesce",
+    "ingredienti": "Misto di pesce fresco cotto alla griglia",
+    "prezzo": 20.00,
+    "immagine": "foto/grigliatapesce.jpg",
+    "categoria": "secondi_mare"
+  },
+  {
+    "id": 63,
+    "nome": "Insalata di Mare",
+    "ingredienti": "Molluschi e crostacei freschi marinati",
+    "prezzo": 12.00,
+    "immagine": "foto/insalatadimare.jpg",
+    "categoria": "antipasti_mare"
+  },
+  {
+    "id": 2,
+    "nome": "Italiana",
+    "ingredienti": "pomodoro, mozzarella, funghi porcini e salsiccia",
+    "prezzo": 7.50,
+    "immagine": "foto/italiana.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 18,
+    "nome": "L'Amore",
+    "ingredienti": "pomodoro, mozzarella, salmone, gamberi e calamari",
+    "prezzo": 10.00,
+    "immagine": "foto/lamore.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 13,
+    "nome": "Manfredonia",
+    "ingredienti": "mozzarella, cime di rapa, acciughe, olive nere e origano",
+    "prezzo": 9.00,
+    "immagine": "foto/manfredonia.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 34,
+    "nome": "Mare e Monti",
+    "ingredienti": "pomodoro, mozzarella, gamberetti e funghi porcini",
+    "prezzo": 10.00,
+    "immagine": "foto/maremonti.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 45,
+    "nome": "Margherita",
+    "ingredienti": "pomodoro e mozzarella",
+    "prezzo": 5.00,
+    "immagine": "foto/gardonese.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 55,
+    "nome": "Marinara",
+    "ingredienti": "pomodoro, aglio, origano e olio",
+    "prezzo": 4.00,
+    "immagine": "foto/marinara.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 9,
+    "nome": "Napoletana",
+    "ingredienti": "pomodoro, mozzarella, acciughe e origano",
+    "prezzo": 6.00,
+    "immagine": "foto/napoletana.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 36,
+    "nome": "Paesana",
+    "ingredienti": "pomodoro, mozzarella, melanzane fritte, tonno e grana",
+    "prezzo": 8.00,
+    "immagine": "foto/paesana.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 31,
+    "nome": "Parmigiana",
+    "ingredienti": "pomodoro, mozzarella, melanzane fritte, prosciutto cotto e grana",
+    "prezzo": 8.50,
+    "immagine": "foto/parmigiana.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 17,
+    "nome": "Passaparola",
+    "ingredienti": "pomodoro, mozzarella, gamberetti, zucchine e grana",
+    "prezzo": 10.00,
+    "immagine": "foto/passaparola.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 53,
+    "nome": "Patatina",
+    "ingredienti": "pomodoro, mozzarella e patatine fritte",
+    "prezzo": 6.00,
+    "immagine": "foto/patatina.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 64,
+    "nome": "Pepata di Cozze",
+    "ingredienti": "Cozze fresche saltate con pepe nero e limone",
+    "prezzo": 10.00,
+    "immagine": "foto/pepatacozze.jpg",
+    "categoria": "antipasti_mare"
+  },
+  {
+    "id": 8,
+    "nome": "Peschici",
+    "ingredienti": "pomodoro, mozzarella, zucchine trifolate e gamberetti",
+    "prezzo": 10.00,
+    "immagine": "foto/peschici.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 6,
+    "nome": "Piemontese",
+    "ingredienti": "pomodoro, mozzarella, scamorza e speck",
+    "prezzo": 7.50,
+    "immagine": "foto/piemontese.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 19,
+    "nome": "Piramidi",
+    "ingredienti": "pomodoro, mozzarella, salsiccia, salame piccante e cipolle",
+    "prezzo": 8.50,
+    "immagine": "foto/piramidi.jpg",
+    "categoria": "piccolicanti"
+  },
+  {
+    "id": 44,
+    "nome": "Pizza Kebab",
+    "ingredienti": "pomodoro, mozzarella, insalata varia e kebab",
+    "prezzo": 8.00,
+    "immagine": "foto/pizzakebab.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 26,
+    "nome": "Porcini",
+    "ingredienti": "pomodoro, mozzarella, funghi porcini e grana",
+    "prezzo": 7.50,
+    "immagine": "foto/porcini.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 46,
+    "nome": "Prosciutto",
+    "ingredienti": "pomodoro, mozzarella e prosciutto cotto",
+    "prezzo": 6.00,
+    "immagine": "foto/prosciutto.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 56,
+    "nome": "Prosciutto e Funghi",
+    "ingredienti": "pomodoro, mozzarella, prosciutto cotto e funghi",
+    "prezzo": 6.50,
+    "immagine": "foto/prosciuttofunghi.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 10,
+    "nome": "Pugliese",
+    "ingredienti": "pomodoro, mozzarella, cipolle, olive nere, grana e origano",
+    "prezzo": 7.00,
+    "immagine": "foto/pugliese.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 43,
+    "nome": "Pumba",
+    "ingredienti": "pomodoro, mozzarella, salsiccia, olive nere e radicchio in cottura",
+    "prezzo": 8.00,
+    "immagine": "foto/pumba.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 37,
+    "nome": "Raggio di Sole",
+    "ingredienti": "pomodoro, mozzarella, pancetta, uovo, asparagi e grana",
+    "prezzo": 8.00,
+    "immagine": "foto/raggiodisole.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 11,
+    "nome": "Romana",
+    "ingredienti": "pomodoro, mozzarella, capperi, acciughe, olive nere e origano",
+    "prezzo": 6.50,
+    "immagine": "foto/romana.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 67,
+    "nome": "Sciallatelli di Tito",
+    "ingredienti": "Pasta fresca tipica con sugo di mare speciale",
+    "prezzo": 13.00,
+    "immagine": "foto/sciallatelli.jpg",
+    "categoria": "primi_mare"
+  },
+  {
+    "id": 12,
+    "nome": "Siciliana",
+    "ingredienti": "pomodoro, acciughe, capperi, olive nere e origano",
+    "prezzo": 6.00,
+    "immagine": "foto/siciliana.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 66,
+    "nome": "Spaghetti al Cartoccio",
+    "ingredienti": "Spaghetti ricchi di pesce cotti al cartoccio",
+    "prezzo": 15.00,
+    "immagine": "foto/spaghetticartoccio.jpg",
+    "categoria": "primi_mare"
+  },
+  {
+    "id": 25,
+    "nome": "Speck",
+    "ingredienti": "pomodoro, mozzarella e speck",
+    "prezzo": 7.00,
+    "immagine": "foto/speck.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 44,
+    "nome": "Tirolese",
+    "ingredienti": "pomodoro, mozzarella, funghi porcini e speck",
+    "prezzo": 9.50,
+    "immagine": "foto/tirolese.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 42,
+    "nome": "Tito",
+    "ingredienti": "pomodoro, mozzarella, pomodorini, rucola e burrata",
+    "prezzo": 8.50,
+    "immagine": "foto/tito.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 51,
+    "nome": "Tonno",
+    "ingredienti": "pomodoro, mozzarella e tonno",
+    "prezzo": 7.00,
+    "immagine": "foto/tonno.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 54,
+    "nome": "Tonno e Cipolla",
+    "ingredienti": "pomodoro, mozzarella, tonno e cipolle",
+    "prezzo": 7.50,
+    "immagine": "foto/tonnocipolla.jpg",
+    "categoria": "pesce"
+  },
+  {
+    "id": 55,
+    "nome": "Valtellina",
+    "ingredienti": "pomodoro, mozzarella, rucola, scaglie di grana e bresaola",
+    "prezzo": 9.00,
+    "immagine": "foto/valtellina.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 50,
+    "nome": "Verdure",
+    "ingredienti": "pomodoro, mozzarella, peperoni, melanzane, zucchine e grana",
+    "prezzo": 8.00,
+    "immagine": "foto/verdure.jpg",
+    "categoria": "classiche"
+  },
+  {
+    "id": 7,
+    "nome": "Vieste",
+    "ingredienti": "pomodoro, mozzarella, salmone e gamberetti",
+    "prezzo": 10.00,
+    "immagine": "foto/vieste.jpg",
+    "categoria": "pesce"
+  }
+]

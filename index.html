@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passaparola Pizza & Mare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <a class="logo" href="#inizio" aria-label="Passaparola Pizza e Mare, inizio">PASSAPAROLA <span class="pizza">PIZZA</span> &amp; <span class="mare">MARE</span></a>
+        <div class="header-meta">
+            <span>Gardone Val Trompia</span>
+            <button id="home-button" class="home-button" type="button" hidden>Torna alla home</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home-view" class="home-view" aria-labelledby="home-title">
+            <div class="home-hero">
+                <div class="home-intro">
+                    <p class="eyebrow">PASSAPAROLA · GARDONE VAL TROMPIA</p>
+                    <h1 id="home-title">Una fetta tira<br><span>l'altra.</span></h1>
+                    <p>Pizza fatta con cura, piatti di mare e il piacere di stare insieme.</p>
+                    <button id="open-menu" class="primary-button" type="button" aria-controls="menu-view" aria-expanded="false">Scopri il menù</button>
+                </div>
+                <figure class="home-visual">
+                    <img src="pizza-home.jpg" alt="Pizza al forno con pomodoro, mozzarella e ingredienti freschi" fetchpriority="high">
+                </figure>
+            </div>
+
+            <div class="home-details">
+                <div class="home-detail">
+                    <span class="home-detail-label">La cucina</span>
+                    <span class="home-detail-value">Pizza artigianale</span>
+                </div>
+                <div class="home-detail">
+                    <span class="home-detail-label">Ogni giorno</span>
+                    <span class="home-detail-value">Piatti di mare</span>
+                </div>
+                <a class="home-detail home-location" href="https://www.google.com/maps/search/?api=1&amp;query=Passaparola+Pizza+e+Mare+Gardone+Val+Trompia" target="_blank" rel="noopener noreferrer">
+                    <span class="home-detail-label">Ci trovi a</span>
+                    <span class="home-detail-value">Gardone Val Trompia <span aria-hidden="true">↗</span></span>
+                </a>
+            </div>
+        </section>
+
+        <div id="menu-view" hidden>
+            <div class="menu-topbar">
+                <div>
+                    <p class="eyebrow">La nostra proposta</p>
+                    <h1>Il menù</h1>
+                </div>
+                <nav class="nav-switch" aria-label="Filtra il menu">
+                    <button class="nav-btn active" onclick="setFilter('tutti', this)">Tutti</button>
+                    <button class="nav-btn" onclick="setFilter('pizze', this)">Pizze</button>
+                    <button class="nav-btn" onclick="setFilter('mare', this)">Mare</button>
+                </nav>
+            </div>
+
+            <section class="hero">
+                <p id="menu-hero-text">Pizza cotta con cura, pesce fresco e il gusto di una tavola semplice, genuina e fatta per stare insieme.</p>
+                <div id="promo-tag" class="promo-banner" style="display: none;">Martedì: tutte le pizze classiche a 5,00€.</div>
+            </section>
+
+            <section class="featured-section menu-featured" aria-labelledby="featured-title">
+                <div class="featured-heading">
+                    <div>
+                        <p class="eyebrow">Una buona idea per cominciare</p>
+                        <h2 id="featured-title">Le nostre preferite</h2>
+                    </div>
+                    <span>Tre pizze, fatte come piacciono a noi.</span>
+                </div>
+                <div id="featured-pizzas" class="featured-grid"></div>
+            </section>
+
+            <div class="search-container">
+                <input type="text" id="barra-ricerca" class="search-bar" placeholder="Cerca una pizza, un ingrediente o un piatto del mare...">
+            </div>
+
+            <div id="categories-container" class="categories-wrapper"></div>
+
+            <div class="delivery-container">
+                <a href="https://deliveroo.it/it/menu/Brescia/sarezzo/pizzeria-passaparola-gardone" target="_blank" rel="noopener noreferrer" class="delivery-btn deliveroo">Ordina su Deliveroo</a>
+                <a href="https://www.justeat.it/restaurants-passaparola-gardone-val-trompia/menu#categoria_33e2498c-b105-4543-8c55-b95a1199d087" target="_blank" rel="noopener noreferrer" class="delivery-btn just-eat">Ordina su Just Eat</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

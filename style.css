@@ -348,6 +348,33 @@ body {
     border-bottom: 1px solid var(--line);
 }
 
+.menu-featured {
+    display: grid;
+    grid-template-rows: 1fr;
+    transition: grid-template-rows 0.34s cubic-bezier(0.2, 0.7, 0.25, 1), margin-top 0.34s ease, padding 0.34s ease, border-color 0.34s ease;
+}
+
+.featured-content {
+    min-height: 0;
+    overflow: hidden;
+    transition: opacity 0.22s ease, transform 0.34s ease;
+}
+
+.menu-featured.is-collapsed {
+    grid-template-rows: 0fr;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.menu-featured.is-collapsed .featured-content {
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+}
+
 .featured-heading {
     display: flex;
     justify-content: space-between;
@@ -773,6 +800,7 @@ body {
 
     .menu-item.is-open .menu-item-toggle::after {
         transform: rotate(225deg) translate(-2px, -1px);
+        border-color: var(--accent);
     }
 
     .menu-item-details {
@@ -790,18 +818,29 @@ body {
     .menu-item-details-inner {
         min-height: 0;
         overflow: hidden;
-        padding-left: 1px;
+        padding: 0 14px;
+        border: 0 solid transparent;
+        border-left: 3px solid transparent;
+        border-radius: 5px;
+        background: transparent;
+        transition: padding 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+    }
+
+    .menu-item.is-open .menu-item-details-inner {
+        margin-bottom: 12px;
+        padding: 12px 14px 0;
+        border-top: 1px solid var(--line);
+        border-right: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+        border-left-color: var(--accent);
+        background: var(--panel);
     }
 
     .menu-item-ingredients {
-        padding: 0 24px 0 0;
+        padding: 0;
+        color: var(--muted);
         font-size: 13px !important;
-        line-height: 1.55 !important;
-    }
-
-    .menu-item-details .menu-price-group {
-        align-self: flex-start;
-        margin-bottom: 13px;
+        line-height: 1.6 !important;
     }
 
     .category-title { margin-top: 28px; }

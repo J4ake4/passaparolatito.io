@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const homeButton = document.getElementById('home-button');
     const menuHeroText = document.getElementById('menu-hero-text');
     const searchInput = document.getElementById('barra-ricerca');
+    const featuredSection = document.querySelector('.menu-featured');
     const featuredPizzas = document.getElementById('featured-pizzas');
     const categoriesContainer = document.getElementById('categories-container');
     const mobileMenuQuery = window.matchMedia('(max-width: 700px)');
@@ -207,17 +208,11 @@ document.addEventListener("DOMContentLoaded", () => {
         categoriesContainer.querySelectorAll('.menu-item').forEach(card => {
             const toggle = card.querySelector('.menu-item-toggle');
             const details = card.querySelector('.menu-item-details');
-            const detailsInner = card.querySelector('.menu-item-details-inner');
-            const priceGroup = card.querySelector('.menu-price-group');
 
             card.classList.remove('is-open');
             toggle.setAttribute('aria-expanded', isMobile ? 'false' : 'true');
             details.setAttribute('aria-hidden', isMobile ? 'true' : 'false');
             details.inert = isMobile;
-
-            if (priceGroup.parentElement !== toggle) {
-                toggle.appendChild(priceGroup);
-            }
         });
     }
 
@@ -234,47 +229,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
 
-            movePriceGroup(openCard, false);
             openCard.classList.remove('is-open');
             openCard.querySelector('.menu-item-toggle').setAttribute('aria-expanded', 'false');
             openCard.querySelector('.menu-item-details').setAttribute('aria-hidden', 'true');
             openCard.querySelector('.menu-item-details').inert = true;
         });
 
-        movePriceGroup(selectedCard, shouldOpen);
         selectedCard.classList.toggle('is-open', shouldOpen);
         toggle.setAttribute('aria-expanded', String(shouldOpen));
 
         const details = selectedCard.querySelector('.menu-item-details');
         details.setAttribute('aria-hidden', String(!shouldOpen));
         details.inert = !shouldOpen;
-    }
-
-    function movePriceGroup(card, moveToDetails) {
-        const toggle = card.querySelector('.menu-item-toggle');
-        const detailsInner = card.querySelector('.menu-item-details-inner');
-        const priceGroup = card.querySelector('.menu-price-group');
-        const destination = moveToDetails ? detailsInner : toggle;
-
-        if (priceGroup.parentElement === destination) {
-            return;
-        }
-
-        const start = priceGroup.getBoundingClientRect();
-        destination.appendChild(priceGroup);
-        const end = priceGroup.getBoundingClientRect();
-        const deltaX = start.left - end.left;
-        const deltaY = start.top - end.top;
-
-        if ((deltaX || deltaY) && typeof priceGroup.animate === 'function') {
-            priceGroup.animate(
-                [
-                    { transform: `translate(${deltaX}px, ${deltaY}px)` },
-                    { transform: 'translate(0, 0)' }
-                ],
-                { duration: 280, easing: 'ease-out' }
-            );
-        }
     }
 
     categoriesContainer.addEventListener('click', event => {
@@ -367,6 +333,10 @@ document.addEventListener("DOMContentLoaded", () => {
         currentTypeFilter = type;
         document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
+        const showFeatured = type === 'tutti';
+        featuredSection.classList.toggle('is-collapsed', !showFeatured);
+        featuredSection.setAttribute('aria-hidden', String(!showFeatured));
+        featuredSection.inert = !showFeatured;
         renderMenu();
     };
 
